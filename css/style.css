@@ -8,10 +8,13 @@
 
 .navigator-div {
     background-color: black;
-    text-align: right; /* Alinha o conteúdo à direita */
+     /* Alinha o conteúdo à direita */
     padding: 10px 20px;
 }
-
+.navigator-div .navigator{
+    display: flex;
+    justify-content: space-between;
+}
 .navigator-div .navigator .navigator-menu {
     list-style: none;
     display: flex; /* Flexbox para alinhamento lado a lado */
@@ -38,7 +41,11 @@
     background-color: #5c5c5c;
     border-radius: 5px;
 }
-
+.navigator-div .navigator .icon-navigator {
+    width: 40px;
+    justify-content:flex-start;
+    display: flex;
+}
 /* Responsividade */
 @media (max-width: 768px) {
     .navigator-div {
