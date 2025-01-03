@@ -56,7 +56,11 @@
         flex-direction: column; /* Empilha os links */
         align-items: center;
     }
-
+    .navigator-div .navigator .icon-navigator {
+    width: 20px;
+    justify-content:flex-start;
+    display: flex;
+    }
     .navigator-div .navigator .navigator-menu li a {
         padding: 15px 20px; /* Maior área clicável em dispositivos móveis */
         width: 100%; /* Links ocupam toda a largura */
