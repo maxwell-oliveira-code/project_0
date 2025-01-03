@@ -57,9 +57,15 @@
         align-items: center;
     }
     .navigator-div .navigator .icon-navigator {
-    width: 20px;
-    justify-content:flex-start;
-    display: flex;
+        width: 40px; /* Ajuste o tamanho adequado */
+        height: 40px; /* Defina uma altura para o ícone */
+        display: flex;
+        justify-content: center; /* Centraliza o conteúdo do ícone */
+        align-items: center; /* Alinha o ícone no centro */
+    }
+    .navigator-div .navigator .icon-navigator img { 
+        width: 100%; /* Faz o ícone ocupar toda a largura disponível */
+        height: auto; /* Mantém a proporção original da imagem */
     }
     .navigator-div .navigator .navigator-menu li a {
         padding: 15px 20px; /* Maior área clicável em dispositivos móveis */
